@@ -1,0 +1,12 @@
+Notes.txt
+
+gdb is your debugger tool. Look into how to use this in the textbook! It will help you to understand how the program runs without detonating the bomb! Read up on it before use!
+
+objdump -t will show you a symbol table of the bomb. This will show the variables, functions, and their addresses. You could learn a thing or two here.
+
+objdump -d will disasemble the bomb code and will help you see the assembly code. The assembly code will be much more cryptic, yet more detailed than the main code.
+
+To avoid accidentally detonating the bomb, you will need to learn how to single-step through the assemblycode and how to set breakpoints.
+
+You will also need to learn how to inspect both the registers and the memory states.
+
